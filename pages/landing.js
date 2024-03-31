@@ -22,6 +22,12 @@ export default function Landing() {
         show: { x: 0, opacity: 1 }
     }
 
+    const hover = {
+        scale: 1.03,
+        color: 'var(--red)',
+        transition: { duration: 0.1 },
+    }
+
     return (
         <div className={styles.landing}>
             <motion.ul
@@ -31,12 +37,15 @@ export default function Landing() {
                 className={styles.list}>
                 <motion.li
                     variants={leftItem}
+                    whileHover={hover}
                 ><Link href="#">Animation Portfolio</Link></motion.li>
                 <motion.li
                     variants={leftItem}
+                    whileHover={hover}
                 ><Link href="#">Music Videos</Link></motion.li>
                 <motion.li
                     variants={leftItem}
+                    whileHover={hover}
                 ><Link href="#">Animated Illustrations</Link></motion.li>
             </motion.ul>
     <img src="https://static.wixstatic.com/media/b42ec7_66733353ca35499291579824de98eee1~mv2.png/v1/fill/w_477,h_683,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Kapal%C4%B1goz.png"></img>
@@ -47,12 +56,15 @@ export default function Landing() {
                 style={{ textAlign: 'right' }} className={styles.list}>
                 <motion.li
                     variants={rightItem}
+                    whileHover={hover}
                 ><Link href="#">Vertical Videos</Link></motion.li>
                 <motion.li
                     variants={rightItem}
+                    whileHover={hover}
                 ><Link href="#">Photography</Link></motion.li>
                 <motion.li
                     variants={rightItem}
+                    whileHover={hover}
                 ><Link href="#">About</Link></motion.li>
             </motion.ul>
             </div>)
