@@ -1,35 +1,35 @@
 .titleContainer {
-    
+  width: 100%;
 }
 
 .titleCard {
-    text-transform: uppercase;
-    position: relative;
-    margin-top: -8%;
-    z-index: 100;
-
+  text-transform: uppercase;
+  position: relative;
+  margin-top: -8%;
+  z-index: 100;
 }
 .titleCard div {
-    max-width: 60vw;
-    padding: 45px 50px;
-    float: right;
+  max-width: 60vw;
+  padding: 35px 50px;
+  float: right;
 }
 
 .titleCard h1 {
-    word-spacing: 100vw; /* Force each word to be in a new line */
-    letter-spacing: 5px;
-    font-weight: 800;
-    color: var(--white);
+  word-spacing: 100vw; /* Force each word to be in a new line */
+  letter-spacing: 5px;
+  font-weight: 800;
+  color: var(--white);
 }
 
-.titleImage img { max-width: 60vw }
-
-
-.grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+.titleImage img {
+  max-width: 60vw;
 }
 
-.grid .item {
-    height: 200px;
-}
+/*.grid {*/
+/*  display: grid;*/
+/*  grid-template-columns: 1fr 1fr 1fr;*/
+/*}*/
+
+/*.grid .item {*/
+/*  height: 200px;*/
+/*}*/
