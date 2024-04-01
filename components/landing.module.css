@@ -1,23 +1,22 @@
 .landing {
-    color: var(--yellow);
-    /*background-color: purple;*/
-    display: flex;
-    align-items: center;
-
+  color: var(--yellow);
+  /*background-color: purple;*/
+  display: flex;
+  align-items: center;
 }
 
 .list {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .list li {
-    font-size: 22px;
-    padding: 24px 0;
+  font-size: 22px;
+  padding: 24px 0;
 }
 
 .list li a {
-    color: unset;
-    text-decoration: unset;
+  color: unset;
+  text-decoration: unset;
 }
