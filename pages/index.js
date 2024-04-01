@@ -13,10 +13,6 @@ export default function Index() {
 
       <main>
         <Home />
-        {/*<Header title="We are making Blue's website!" />*/}
-        {/*<p className="description">*/}
-        {/*   <code>pages/index.js</code>*/}
-        {/*</p>*/}
       </main>
 
       <Footer />
