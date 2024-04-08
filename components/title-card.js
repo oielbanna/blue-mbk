@@ -14,9 +14,9 @@ export default function TitleCard({ src, title, backgroundColor, children }) {
         </div>
       </div>
       {children}
-      {/*<div className={styles.grid}>*/}
+      {/* <div className={styles.grid}> */}
 
-      {/*</div>*/}
+      {/* </div> */}
     </>
   );
 }

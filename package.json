@@ -26,6 +26,7 @@
     "eslint-plugin-react": "^7.34.1",
     "eslint-plugin-react-hooks": "^4.6.0",
     "framer-motion": "^11.0.24",
-    "prettier": "^3.2.5"
+    "prettier": "^3.2.5",
+    "sass": "^1.74.1"
   }
 }

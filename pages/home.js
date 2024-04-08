@@ -40,7 +40,7 @@ export default function Home() {
           <Link href="/animated-illustrations">Animated Illustrations</Link>
         </motion.li>
       </motion.ul>
-      <img src="https://static.wixstatic.com/media/b42ec7_66733353ca35499291579824de98eee1~mv2.png/v1/fill/w_477,h_683,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Kapal%C4%B1goz.png"></img>
+      <img src="https://static.wixstatic.com/media/b42ec7_66733353ca35499291579824de98eee1~mv2.png/v1/fill/w_477,h_683,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Kapal%C4%B1goz.png" />
       <motion.ul
         variants={container}
         initial="hidden"
