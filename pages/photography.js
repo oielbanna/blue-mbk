@@ -25,13 +25,14 @@ export default function Photography() {
             style={{ left: 'calc(100% - 550px)', maxWidth: 510, marginTop: -320 }}
             src="/concert-photos/dilettante/2.jpg"
           />
-          <img style={{ maxWidth: 370,
-              left: 70,
-              top: -20 }} src="/concert-photos/dilettante/3.jpg" />
-          <img  style={{ maxWidth: 450,
-              left: 'calc(100% - 560px)',
-              marginTop: -430
-          }} src="/concert-photos/dilettante/4.jpg" />
+          <img
+            style={{ maxWidth: 370, left: 70, top: -20 }}
+            src="/concert-photos/dilettante/3.jpg"
+          />
+          <img
+            style={{ maxWidth: 450, left: 'calc(100% - 560px)', marginTop: -430 }}
+            src="/concert-photos/dilettante/4.jpg"
+          />
         </div>
       </div>
     </Page>

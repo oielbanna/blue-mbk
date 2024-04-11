@@ -17,7 +17,9 @@ export default function Page({ children }) {
         />
       </Head>
       <Header title="Bluen" />
-        <main id="page-wrap"><div className="main-first-child">{children}</div></main>
+      <main id="page-wrap">
+        <div className="main-first-child">{children}</div>
+      </main>
 
       <Footer />
     </div>
