@@ -2,7 +2,6 @@ import Head from 'next/head';
 import Footer from '@components/Footer';
 import Header from '@components/Header';
 import TitleCard from '@components/title-card';
-import Home from '../pages/home';
 
 export default function Page({ children }) {
   return (
@@ -10,9 +9,15 @@ export default function Page({ children }) {
       <Head>
         <title>Next.js Starter!</title>
         <link rel="icon" href="/favicon.ico" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap"
+          rel="stylesheet"
+        />
       </Head>
-      <Header title="" />
-      <main id="page-wrap">{children}</main>
+      <Header title="Bluen" />
+        <main id="page-wrap"><div className="main-first-child">{children}</div></main>
 
       <Footer />
     </div>

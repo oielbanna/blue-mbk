@@ -7,10 +7,8 @@ export default function TitleCard({ src, title, backgroundColor, children }) {
         <div className={styles.titleImage}>
           <img src={src} />
         </div>
-        <div className={styles.titleCard}>
-          <div style={{ backgroundColor }}>
-            <h1>{title}</h1>
-          </div>
+        <div style={{ backgroundColor }} className={styles.titleCard}>
+          <h1>{title}</h1>
         </div>
       </div>
       {children}

@@ -16,11 +16,11 @@ function Menu({ className, innerRef }) {
           }
         ].map((item) => {
           return (
-              <a href={item.link}>
+            <a href={item.link}>
               <li key={item.link} className={styles.navigation__item}>
-                  {item.name}
+                {item.name}
               </li>
-        </a>
+            </a>
           );
         })}
       </ul>

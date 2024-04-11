@@ -1,0 +1,11 @@
+.title {
+  color: var(--white);
+}
+
+.header {
+  max-height: 10vh;
+  /*background: red;*/
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
