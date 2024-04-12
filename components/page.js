@@ -1,7 +1,6 @@
 import Head from 'next/head';
 import Footer from '@components/Footer';
 import Header from '@components/Header';
-import TitleCard from '@components/title-card';
 
 export default function Page({ children }) {
   return (
@@ -16,9 +15,11 @@ export default function Page({ children }) {
           rel="stylesheet"
         />
       </Head>
-      <Header title="Bluen" />
+      <Header title="Blue" />
       <main id="page-wrap">
-        <div className="main-first-child">{children}</div>
+        {/*<div className="main-first-child">*/}
+            {children}
+        {/*</div>*/}
       </main>
 
       <Footer />

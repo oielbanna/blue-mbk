@@ -34,9 +34,9 @@ export default function MusicVideos() {
         animate="show"
         className={styles.musicVideos}
       >
-        {MUSIC_VIDEOS.map((video) => {
+        {MUSIC_VIDEOS.map((video, i) => {
           return (
-            <Link href={`${video.link}`}>
+            <Link key={i} href={`${video.link}`}>
               <motion.div whileHover={{ y: -5 }} variants={item} className={styles.element}>
                 <div dangerouslySetInnerHTML={{ __html: video.embed }} />
                 <h1>{video.subtitle}</h1>

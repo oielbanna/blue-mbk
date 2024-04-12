@@ -1,0 +1,25 @@
+.animatedIllustrations {
+    color: var(--white);
+    display: grid;
+    grid-gap: 30px 56px;
+    gap: 30px 56px;
+    padding: 28px 30px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    background: var(--blue);
+}
+
+.item img {
+    width: 100%;
+}
+
+.item h1 {
+    text-transform: uppercase;
+    padding-left: 15px;
+    font-size: 1.2em;
+}
