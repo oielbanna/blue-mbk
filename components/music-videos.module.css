@@ -31,4 +31,5 @@
   width: 100% !important; /* Overwrite anything set on the iframe itwelf */
   /*height: auto;*/
   height: 50vh;
+  border: none;
 }
