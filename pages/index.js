@@ -50,13 +50,13 @@ function Home() {
         className={styles.list}
       >
         <motion.li variants={rightItem} whileHover={hover}>
-          <Link href="#">Vertical Videos</Link>
+          <Link href="/vertical-videos">Vertical Videos</Link>
         </motion.li>
         <motion.li variants={rightItem} whileHover={hover}>
           <Link href="/photography">Photography</Link>
         </motion.li>
         <motion.li variants={rightItem} whileHover={hover}>
-          <Link href="#">About</Link>
+          <Link href="/about">About</Link>
         </motion.li>
       </motion.ul>
     </div>

@@ -18,7 +18,7 @@ export default function Page({ children }) {
       <Header title="Blue" />
       <main id="page-wrap">
         {/*<div className="main-first-child">*/}
-            {children}
+        {children}
         {/*</div>*/}
       </main>
 
