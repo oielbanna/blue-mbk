@@ -1,0 +1,66 @@
+.about {
+  width: 100%;
+  color: var(--white);
+  --img-width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+
+  img {
+    width: min(30vw, var(--img-width));
+    margin-left: 19vw;
+    align-self: start;
+  }
+
+  .bio {
+    width: 40%;
+    margin-left: calc(min(30vw, var(--img-width)) / 2);
+    margin-top: -200px;
+    z-index: 100;
+
+  h1 {
+    font-size: 2em;
+    letter-spacing: 1px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: right;
+  }
+
+  h2 {
+    font-size: 1.2em;
+    font-weight: 700;
+  }
+
+  p {
+    letter-spacing: 1.2px;
+    font-weight: 200;
+    line-height: 1.6em;
+    font-size: 1.05em;
+  }
+  }
+
+  .contact {
+    text-align: left;
+    width: 60%;
+
+    h1 {
+      color: var(--blue);
+      text-transform: uppercase;
+      letter-spacing: 10px;
+      font-weight: 900;
+      font-size: 2em;
+      margin-top: unset;
+    }
+
+    p {
+      color: var(--yellow);
+      font-weight: 100;
+      letter-spacing: 0.7px;
+      font-size: 0.9em;
+    }
+  }
+}
+
+
