@@ -22,6 +22,7 @@ export default function VerticalVideos() {
                   onMouseEnter={(e) => e.target.play()}
                   onMouseLeave={(e) => e.target.pause()}
                   src={`/vertical-videos/${item.name}`}
+                  preload="auto"
                 />
               </div>
             );
